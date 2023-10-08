@@ -33,10 +33,12 @@ header nav {
       width: 1.15rem;
    
     img:first-child {
-      display: none;
+      display: inherit;
+
     }
     img:last-child{
-      display: inherit;
+      display: none;
+
     }
   }
 

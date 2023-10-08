@@ -30,10 +30,10 @@ header nav button {
   width: 1.15rem;
 }
 header nav button img:first-child {
-  display: none;
+  display: inherit;
 }
 header nav button img:last-child {
-  display: inherit;
+  display: none;
 }
 header nav.bg {
   background-image: linear-gradient(to top, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.5));
