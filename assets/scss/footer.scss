@@ -1,0 +1,124 @@
+footer {
+
+    background-color: #F6F6F6;
+    .footer-container{
+        padding:  6.625rem 0;
+    
+  display: grid;
+  gap:4.5rem;
+
+  h2,
+  h2 a{
+    color: #272d38;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27.5px; /* 152.778% */
+    text-transform: capitalize;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  p,
+  a {
+    color: #272d38;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 150%; /* 24px */
+    text-transform: capitalize;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    list-style: none;
+  }
+  nav ul li a {
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+div:last-child{
+    color: #272D38;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 100%; /* 16px */
+
+a{
+    color: #272D38;
+    &:hover{
+    color: #000000;
+
+    }
+
+}
+}
+.creators{
+  padding-bottom: 1rem;
+}
+.creators p{
+  text-align: center;
+}
+}
+
+
+@media (min-width: 768px) {
+    footer {
+        padding: 0 5rem 2rem 5rem;
+
+
+        .logo p,
+          .logo h2{
+          text-align: start;
+        
+        }
+        .footer-container{
+            display: flex;
+            align-items: start;
+            justify-content: space-between;
+
+            gap:4.5rem;
+        padding:  6.625rem auto ;
+        div:last-child{
+            margin-top: inherit;
+            gap: 0;
+            // gap: 1rem;
+            // display: flex;
+            // flex-direction: column;
+            // align-items: center;
+            // justify-content: center;
+        }
+        }
+
+        div:last-child{
+            margin-top: 2rem;
+            gap: 1rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+      
+    
+    }      
+
+}
+
+@media (min-width: 992px) {
+  footer {
+      padding: 0 11.75rem 2rem 11.75rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  footer {
+      padding: 0  25.75rem 2rem  25.75rem;
+  }
+}

@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  scroll-behavior: smooth;
+}
+
+:root {
+  font-family: "Inter", sans-serif;
+}
+
+.titleTextButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+.titleTextButton h2 {
+  color: #272d38;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 100%; /* 40px */
+  text-transform: capitalize;
+}
+.titleTextButton p {
+  color: #272d38;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27.5px; /* 171.875% */
+  text-transform: capitalize;
+}
+.titleTextButton a {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 27.5px; /* 196.429% */
+  text-transform: uppercase;
+  padding: 0.625rem 1.5rem;
+  text-decoration: none;
+  border-radius: 8px;
+  background: #8eadd5;
+}
+.titleTextButton a:hover {
+  background: #7ba1d4;
+}
+
+.titleTextArrow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+.titleTextArrow h2 {
+  color: #272d38;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 100%; /* 32px */
+  text-transform: capitalize;
+}
+.titleTextArrow p {
+  color: #272d38;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 27.5px; /* 196.429% */
+  text-transform: capitalize;
+}
+.titleTextArrow .arrow {
+  transform: rotate(90deg);
+  width: inherit;
+}
+
+@media (min-width: 992px) {
+  .titleTextButton {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+  .titleTextButton h2 {
+    color: #272d38;
+    /* H1 - Main Heading */
+    text-align: left;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 100%; /* 64px */
+    text-transform: capitalize;
+  }
+  .titleTextButton p {
+    color: #272d38;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.5px; /* 171.875% */
+    text-transform: capitalize;
+  }
+  .titleTextButton a {
+    color: #fff;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27.5px; /* 196.429% */
+    text-transform: uppercase;
+  }
+  .titleTextArrow {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+  .titleTextArrow h2 {
+    text-align: left;
+    font-size: 48px;
+  }
+  .titleTextArrow p {
+    text-align: left;
+    font-size: 16px;
+  }
+  .titleTextArrow .arrow {
+    transform: rotate(0deg);
+    width: inherit;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

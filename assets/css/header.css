@@ -1,0 +1,119 @@
+header ul {
+  list-style: none;
+}
+header a {
+  text-decoration: none;
+  color: #272d38;
+}
+
+header h1 {
+  color: #272d38;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+header nav {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+}
+header nav button {
+  height: 1.15rem;
+  width: 1.15rem;
+}
+header nav button img:first-child {
+  display: none;
+}
+header nav button img:last-child {
+  display: inherit;
+}
+header nav.bg {
+  background-image: linear-gradient(to top, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.5));
+}
+header nav.open {
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.7);
+}
+header nav.open ul {
+  transform: translateX(0);
+  transition: all 0.5s ease-in-out;
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.7);
+}
+header nav.open button {
+  height: 1.15rem;
+  width: 1.15rem;
+}
+header nav.open button img:first-child {
+  display: none;
+}
+header nav.open button img:last-child {
+  display: inherit;
+}
+header nav button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+}
+header nav ul {
+  transform: translateX(100%);
+  position: absolute;
+  min-height: calc(100vh - 4rem);
+  width: 100%;
+  left: 0;
+  top: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  text-align: center;
+  transition: all 0.5s ease-in-out;
+}
+header nav ul li:first-child {
+  margin-top: 2rem;
+}
+header nav ul li a {
+  padding: 1rem 2rem;
+}
+header nav ul li a:hover {
+  text-decoration: underline;
+  text-decoration-color: #272d38;
+}
+
+@media (min-width: 992px) {
+  header h1 {
+    font-size: 20px;
+  }
+  header nav {
+    padding: 3rem 11rem;
+    height: inherit;
+    position: inherit;
+    display: flex;
+    justify-content: space-between;
+  }
+  header nav button {
+    display: none;
+  }
+  header nav ul {
+    position: inherit;
+    transform: inherit;
+    gap: inherit;
+    min-height: inherit;
+    flex-direction: row;
+    justify-content: end;
+    gap: 2rem;
+  }
+  header nav ul li:first-child {
+    margin-top: 0;
+  }
+}
+
+/*# sourceMappingURL=header.css.map */

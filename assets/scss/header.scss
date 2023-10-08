@@ -1,0 +1,153 @@
+header {
+  ul {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+    color: #272d38;
+  }
+}
+header h1 {
+  color: #272d38;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 700;
+
+  white-space: nowrap;
+}
+
+header nav {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  // background-color: red;
+  padding: 1.5rem;
+
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+
+  button{
+    height: 1.15rem;
+      width: 1.15rem;
+   
+    img:first-child {
+      display: none;
+    }
+    img:last-child{
+      display: inherit;
+    }
+  }
+
+  &.bg{
+    // background-color: rgba(255, 255, 255, 0.5);
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.5));
+}
+
+  &.open {
+    // background-image: tra;
+    backdrop-filter: blur(10px);
+
+    background-color: rgba(255, 255, 255, 0.7);
+    ul {  
+      transform: translateX(0);
+      transition: all .5s ease-in-out;
+      backdrop-filter: blur(10px);
+
+      background-color: rgba(255, 255, 255, 0.7);
+    }
+    button{
+      height: 1.15rem;
+        width: 1.15rem;
+     
+      img:first-child {
+        display: none;
+      }
+      img:last-child{
+        display: inherit;
+      }
+    }
+   
+  
+  }
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+  }
+
+  ul {
+    transform: translateX(100%);
+
+    position: absolute;
+
+    min-height: calc(100vh - 4rem);
+    width: 100%;
+    left: 0;
+    top: 4rem;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 4rem;
+    text-align: center;
+    transition: all .5s ease-in-out;
+
+    li:first-child{
+      margin-top: 2rem;
+    }
+    li a {
+      // background-color: red;
+
+      padding: 1rem 2rem;
+      &:hover {
+        text-decoration: underline;
+        text-decoration-color: #272d38;
+      }
+    }
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  header h1 {
+    font-size: 20px;
+  }
+
+  header nav {
+    padding: 3rem 11rem;
+    
+
+    height: inherit;
+    position: inherit;
+    display: flex;
+    justify-content: space-between;
+    button {
+      display: none;
+    }
+
+    ul {
+      // width: inherit;
+      position: inherit;
+      transform: inherit;
+      gap: inherit;
+      min-height: inherit;
+      // top: inherit;
+      // left: inherit;
+
+      flex-direction: row;
+      justify-content: end;
+      gap: 2rem;
+      li:first-child{
+        margin-top: 0;
+      }
+    }
+  }
+}

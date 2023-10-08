@@ -1,0 +1,249 @@
+main {
+  padding: calc(4rem + 5.625rem) 1.5rem;
+}
+main .hero-section {
+  display: grid;
+
+  img {
+    width: 100%;
+  }
+}
+
+main .companies-section {
+  margin-top: 7.5rem;
+  p {
+    text-align: center;
+    color: #667085;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 100%; /* 14px */
+    text-transform: capitalize;
+  }
+
+  .logos-container {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.875rem;
+
+    padding: 1.25rem 1.5rem;
+
+    background-color: #f6f6f6;
+    img {
+      height: 1.5rem;
+
+      // object-fit: cover;
+    }
+  }
+}
+
+main .branding-section {
+  margin-top: 7.5rem;
+  display: grid;
+
+  img {
+    width: 100%;
+  }
+}
+
+main .costume-section {
+  margin-top: 7.5rem;
+  display: grid;
+
+  img {
+    width: 100%;
+  }
+}
+
+
+
+main .testimonial-section {
+  display: grid;
+  gap: 1rem;
+  margin-top: 7.5rem;
+
+  p.testimonial-subtitle {
+    color: #272d38;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 27.5px; /* 229.167% */
+    text-transform: capitalize;
+    text-align: center;
+  }
+
+  h2 {
+    color: #272d38;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 100%; /* 32px */
+    text-transform: capitalize;
+  }
+
+  .testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2.5rem;
+  }
+  .testimonials .testimonial {
+    // width: 21.5rem;
+    // flex-shrink: 0;
+
+    background-color: #f6f6f6;
+    padding: 2rem 3rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    img {
+      width: 7.875rem;
+    }
+    h4 {
+      margin-top: 0.5rem;
+      color: #272d38;
+      text-align: center;
+      /* Body Text */
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 27.5px; /* 152.778% */
+      text-transform: capitalize;
+    }
+    p {
+      margin-top: 1.5rem;
+      color: #272d38;
+      text-align: center;
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 130%; /* 18.2px */
+      text-transform: capitalize;
+    }
+  }
+}
+
+main .contact-section {
+    margin-top: 7.5rem;
+  
+    background-color: #f6f6f6;
+    padding: 3.5rem 2.25rem;
+    img {
+      display: none;
+    }
+  }
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  main {
+    padding: calc(4rem + 5.625rem) 5rem;
+  }
+
+  main .companies-section {
+    p {
+      color: #667085;
+      /* Span Text */
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 100%; /* 16px */
+      text-transform: capitalize;
+    }
+
+    .logos-container {
+      gap: 7.25rem;
+
+      img {
+        height: 3rem;
+        // object-fit: cover;
+      }
+    }
+  }
+
+  main .testimonial-section {
+    display: grid;
+    gap: 1rem;
+    margin-top: 7.5rem;
+
+    p.testimonial-subtitle {
+      font-size: 16px;
+    }
+
+    h2 {
+      font-size: 48px;
+    }
+
+    .testimonials {
+      margin-top: 2.25rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 2.5rem;
+
+      
+    }
+    .testimonials .testimonial{
+      min-width: 15rem;
+      width: 30%;
+        // width: 20.5rem;
+    // flex-shrink: 0;
+
+    }
+  }
+
+  main .contact-section {
+    margin-top: 7.5rem;
+  
+    background-color: #f6f6f6;
+    padding: 3.5rem 2.25rem;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+    img {
+      display: inherit;
+      width: 100%;
+    }
+    .titleTextButton{
+        align-self: center;
+    }
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  main {
+    padding: calc(4rem + 5.625rem) 11.75rem;
+  }
+  main .hero-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+  }
+
+  main .branding-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+    div {
+      order: 2;
+    }
+
+    img {
+      order: 1;
+    }
+  }
+  main .costume-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+  }
+
+  
+}
+
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { 
+  main{
+      padding: calc(4rem + 5.625rem) 25.75rem;
+  }
+ }

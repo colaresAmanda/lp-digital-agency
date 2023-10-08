@@ -1,0 +1,207 @@
+main {
+  padding: 9.625rem 1.5rem;
+}
+
+main .hero-section {
+  display: grid;
+}
+main .hero-section img {
+  width: 100%;
+}
+
+main .companies-section {
+  margin-top: 7.5rem;
+}
+main .companies-section p {
+  text-align: center;
+  color: #667085;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 100%; /* 14px */
+  text-transform: capitalize;
+}
+main .companies-section .logos-container {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.875rem;
+  padding: 1.25rem 1.5rem;
+  background-color: #f6f6f6;
+}
+main .companies-section .logos-container img {
+  height: 1.5rem;
+}
+
+main .branding-section {
+  margin-top: 7.5rem;
+  display: grid;
+}
+main .branding-section img {
+  width: 100%;
+}
+
+main .costume-section {
+  margin-top: 7.5rem;
+  display: grid;
+}
+main .costume-section img {
+  width: 100%;
+}
+
+main .testimonial-section {
+  display: grid;
+  gap: 1rem;
+  margin-top: 7.5rem;
+}
+main .testimonial-section p.testimonial-subtitle {
+  color: #272d38;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 27.5px; /* 229.167% */
+  text-transform: capitalize;
+  text-align: center;
+}
+main .testimonial-section h2 {
+  color: #272d38;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 100%; /* 32px */
+  text-transform: capitalize;
+}
+main .testimonial-section .testimonials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2.5rem;
+}
+main .testimonial-section .testimonials .testimonial {
+  background-color: #f6f6f6;
+  padding: 2rem 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main .testimonial-section .testimonials .testimonial img {
+  width: 7.875rem;
+}
+main .testimonial-section .testimonials .testimonial h4 {
+  margin-top: 0.5rem;
+  color: #272d38;
+  text-align: center;
+  /* Body Text */
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27.5px; /* 152.778% */
+  text-transform: capitalize;
+}
+main .testimonial-section .testimonials .testimonial p {
+  margin-top: 1.5rem;
+  color: #272d38;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 130%; /* 18.2px */
+  text-transform: capitalize;
+}
+
+main .contact-section {
+  margin-top: 7.5rem;
+  background-color: #f6f6f6;
+  padding: 3.5rem 2.25rem;
+}
+main .contact-section img {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  main {
+    padding: 9.625rem 5rem;
+  }
+  main .companies-section p {
+    color: #667085;
+    /* Span Text */
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 100%; /* 16px */
+    text-transform: capitalize;
+  }
+  main .companies-section .logos-container {
+    gap: 7.25rem;
+  }
+  main .companies-section .logos-container img {
+    height: 3rem;
+  }
+  main .testimonial-section {
+    display: grid;
+    gap: 1rem;
+    margin-top: 7.5rem;
+  }
+  main .testimonial-section p.testimonial-subtitle {
+    font-size: 16px;
+  }
+  main .testimonial-section h2 {
+    font-size: 48px;
+  }
+  main .testimonial-section .testimonials {
+    margin-top: 2.25rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2.5rem;
+  }
+  main .testimonial-section .testimonials .testimonial {
+    min-width: 15rem;
+    width: 30%;
+  }
+  main .contact-section {
+    margin-top: 7.5rem;
+    background-color: #f6f6f6;
+    padding: 3.5rem 2.25rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+  }
+  main .contact-section img {
+    display: inherit;
+    width: 100%;
+  }
+  main .contact-section .titleTextButton {
+    align-self: center;
+  }
+}
+@media (min-width: 992px) {
+  main {
+    padding: 9.625rem 11.75rem;
+  }
+  main .hero-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+  }
+  main .branding-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+  }
+  main .branding-section div {
+    order: 2;
+  }
+  main .branding-section img {
+    order: 1;
+  }
+  main .costume-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+  }
+}
+@media (min-width: 1400px) {
+  main {
+    padding: 9.625rem 25.75rem;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
