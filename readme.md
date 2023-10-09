@@ -20,7 +20,7 @@ This project is a responsive agency landing page developed using Html, Sass, and
 
 ## Installation and Setup
 
-1. Clone this repository to your local machine using `git clone https://github.com/yourusername/your-repo.git`
+1. Clone this repository to your local machine using `git clone https://github.com/colaresAmanda/lp-digital-agency`
 2. Open the project folder in your code editor.
 3. If you haven't already, install Sass using `npm install -g sass` (you need Node.js and npm installed).
 4. Access the assets folder `cd assets`
