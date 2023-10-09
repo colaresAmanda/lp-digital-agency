@@ -6,7 +6,7 @@ This project is a responsive agency landing page developed using Html, Sass, and
 
 ![Capa](https://github.com/colaresAmanda/lp-digital-agency/assets/83729891/6482b807-28f3-4ab3-9f42-bca89b58ee48)
 
-[Live Demo](https://colaresamanda.github.io/lp-digital-agency/)
+[Live Demo](https://colaresamanda.github.io/lp-digital-agency/) |
 [Figma Design](https://www.figma.com/community/file/1117815114206690225)
 
 ## Development Highlights
