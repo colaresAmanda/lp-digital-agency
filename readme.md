@@ -1,16 +1,13 @@
 
-# Landing page
-Responsive Landing Page Development
-
-## Description
-
-This project is a responsive landing page developed with Html, Sass, and JavaScript.
+# Agency Landing page
+This project is a responsive agency landing page developed using Html, Sass, and JavaScript.
 
 ## Preview
 
-![Screenshot](screenshot.png)
+![Capa](https://github.com/colaresAmanda/lp-digital-agency/assets/83729891/6482b807-28f3-4ab3-9f42-bca89b58ee48)
 
-[Live Demo](#) - Add a link to your live demo here
+[Live Demo](#)
+[Figma Design](https://www.figma.com/community/file/1117815114206690225)
 
 ## Development Highlights
 
@@ -26,14 +23,10 @@ This project is a responsive landing page developed with Html, Sass, and JavaScr
 1. Clone this repository to your local machine using `git clone https://github.com/yourusername/your-repo.git`
 2. Open the project folder in your code editor.
 3. If you haven't already, install Sass using `npm install -g sass` (you need Node.js and npm installed).
-4. acess the assets folder `cd assets`
+4. Access the assets folder `cd assets`
 4. Compile the Sass to CSS using `sass scss:css`.
 5. Open the `index.html` file in your web browser to view the landing page.
 
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contributors
 <table>
@@ -48,10 +41,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
       <sub>Development :computer:</sub>
     </td>
     <td align="center">
-      <a href="https://github.com/sfoteini">
-        <img src="https://avatars.githubusercontent.com/u/65664664?v=4" width="100px;" alt="Foto da Amanda Colares no GitHub"/><br>
+      <a href="https://www.figma.com/@matheusdias20">
+        <img src="https://s3-alpha.figma.com/profile/56bd07b0-6948-4606-9186-bec6cb4b0dbb" width="100px;" alt="Foto da Matheus Vieira no Figma"/><br>
         <sub>
-          <b>Foteini Savvidou</b>
+          <b>Matheus Vieira</b>
         </sub>
       </a><br>
       <sub>Design :art:</sub>
